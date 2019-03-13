@@ -74,7 +74,8 @@ COMMON_HEADERS = {'ACCEPT-RANGES',
                   'ACCESS-CONTROL-ALLOW-ORIGIN',
                   'ACCESS-CONTROL-ALLOW-METHODS',
                   'ACCESS-CONTROL-ALLOW-HEADERS',
-                  'ACCESS-CONTROL-MAX-AGE'}
+                  'ACCESS-CONTROL-MAX-AGE',
+                  'X-REQUEST-URL'}
 
 
 def is_strange(header_name):
