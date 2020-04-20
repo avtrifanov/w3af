@@ -185,7 +185,7 @@ class TestSerializedObjectIntegration(PluginTest):
         expected_vulns = {('Serialized object',
                            u'A total of 1 HTTP requests contained a serialized object'
                            u' in the parameter with name "viewstate". The first ten'
-                           u' matching URLs are:\n - http://mock/form\n')}
+                           u' URLs are:\n - http://mock/form\n')}
 
         vulns_set = set()
 

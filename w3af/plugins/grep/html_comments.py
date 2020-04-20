@@ -183,7 +183,7 @@ class HTMLCommentHidesHTMLInfoSet(InfoSet):
     ITAG = 'html_comment'
     TEMPLATE = (
         'A total of {{ uris|length }} HTTP requests contained an HTML comment'
-        ' that includes HTML tags: "{{ html_comment }}". The first ten matching'
+        ' that includes HTML tags: "{{ html_comment }}". The first ten'
         ' URLs are:\n'
         ''
         '{% for url in uris[:10] %}'
@@ -196,7 +196,7 @@ class HTMLCommentInterestingWordInfoSet(InfoSet):
     ITAG = 'word'
     TEMPLATE = (
         'A total of {{ uris|length }} HTTP requests contained an HTML comment '
-        ' that included the interesting word "{{ word }}". The first ten matching'
+        ' that included the interesting word "{{ word }}". The first ten'
         ' URLs are:\n'
         ''
         '{% for url in uris[:10] %}'

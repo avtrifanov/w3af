@@ -196,7 +196,7 @@ class HTMLPrivateIPInfoSet(InfoSet):
     TEMPLATE = (
         'A total of {{ uris|length }} HTTP responses contained the private IP'
         ' address {{ ip_address }} in the response body. The first ten'
-        ' matching URLs are:\n'
+        ' URLs are:\n'
         ''
         '{% for url in uris[:10] %}'
         ' - {{ url }}\n'
@@ -209,7 +209,7 @@ class HeaderPrivateIPInfoSet(InfoSet):
     TEMPLATE = (
         'A total of {{ uris|length }} HTTP responses contained the private IP'
         ' address {{ ip_address }} in the "{{ header_name }}" response header.'
-        ' The first ten matching URLs are:\n'
+        ' The first ten URLs are:\n'
         ''
         '{% for url in uris[:10] %}'
         ' - {{ url }}\n'
