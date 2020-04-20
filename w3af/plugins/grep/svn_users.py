@@ -90,7 +90,7 @@ class SVNUserInfoSet(InfoSet):
     ITAG = 'user'
     TEMPLATE = (
         'The application returned {{ uris|length }} HTTP responses containing'
-        ' the SVN username "{{ user }}". The first ten vulnerable URLs are:\n'
+        ' the SVN username "{{ user }}". The first ten URLs are:\n'
         ''
         '{% for url in uris[:10] %}'
         ' - {{ url }}\n'
